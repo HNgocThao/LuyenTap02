@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="LuyenTap02" verbose="1">
+    <parameter name="browserType" value="chrome" />
+<!--    <parameter name="appURL" value="https://rise.fairsketch.com" />-->
+    <test name="KichBanKiemThu">
+        <classes>
+            <class name="KichBanKiemThu.testcases.UserAccessTest">
+            </class>
+        </classes>
+    </test>
+</suite>
